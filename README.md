@@ -2,4 +2,4 @@
 
 Predefinisan projekat - rešavanje N-dimenzionalnih problema uz pomoć PSO algoritma
 
-###Student - Filip Živanac SW-66-2018
+### Student - Filip Živanac SW-66-2018
