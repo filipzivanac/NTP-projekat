@@ -49,7 +49,7 @@ formulama:
 𝑐𝑔[𝑘] ⋅ 𝑟𝑔[𝑘] ⋅ (𝑔[𝑘] −𝑥[𝑘])
 𝑥 𝑘 + 1 = 𝑥 𝑘 + 𝑣 𝑘 
 
-###Rešenje
+### Rešenje
 
 Kao optimizacioni problem koji se rešava koristiće se Aklijeva funkcija.
 U izlanom fajlu će se prikazivati globalni optimum i njegova lokacija nakon svake iteracije.
