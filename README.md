@@ -31,3 +31,20 @@ Kao rezultat algoritam vraća:
 Koraci navedenog algoritma su inicijalizacija
 čestica, računanje njihovih novih pozicija, kao i
 kriterijum zaustavljanja
+
+Svaka čestica pamti:
+<ol>
+<li>svoju tekuću poziciju (potencijalno rešenje),</li>
+<li>najbolju poziciju ikad dostignutu (najbližu</li>
+rešenju) i
+<li>tekuću brzinu.</li>
+ </ol>
+Roj, kao celina, pamti svoju najbolju poziciju ikada
+postignutu.
+Iterativno, za svaku česticu k računa se njena brzina,
+nakon čega dolazi do promene pozicije prema sledećim
+formulama:
+
+𝑣[𝑘] = 𝑤[𝑘] ⋅ 𝑣[𝑘 − 1] + 𝑐𝑝[𝑘] ⋅ 𝑟𝑝[𝑘] ⋅ (𝑝[𝑘] −𝑥[𝑘])+
+𝑐𝑔[𝑘] ⋅ 𝑟𝑔[𝑘] ⋅ (𝑔[𝑘] −𝑥[𝑘])
+𝑥 𝑘 + 1 = 𝑥 𝑘 + 𝑣 𝑘 
