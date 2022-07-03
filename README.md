@@ -48,3 +48,9 @@ formulama:
 𝑣[𝑘] = 𝑤[𝑘] ⋅ 𝑣[𝑘 − 1] + 𝑐𝑝[𝑘] ⋅ 𝑟𝑝[𝑘] ⋅ (𝑝[𝑘] −𝑥[𝑘])+
 𝑐𝑔[𝑘] ⋅ 𝑟𝑔[𝑘] ⋅ (𝑔[𝑘] −𝑥[𝑘])
 𝑥 𝑘 + 1 = 𝑥 𝑘 + 𝑣 𝑘 
+
+###Rešenje
+
+Kao optimizacioni problem koji se rešava koristiće se Aklijeva funkcija.
+U izlanom fajlu će se prikazivati globalni optimum i njegova lokacija nakon svake iteracije.
+Sekvencijalno i paralelno izvršavanje algoritma biće implementiranu u jeziku Python.
