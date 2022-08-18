@@ -1,4 +1,4 @@
-from pso import particle_swarm_optimisation, parallel_particle_swarm_optimisation
+from pso import particle_swarm_optimisation, parallel_particle_swarm_optimisation, parallel_particle_swarm_optimisation3
 from time import time
 import math
 
@@ -15,8 +15,8 @@ def Ackley(X):
 
 if __name__ == "__main__":
     t1 = time()
-    X = parallel_particle_swarm_optimisation(
-        Ackley, -100, 100, maxiter=100, npart=1000, printData=True, dim=10)
+    X = parallel_particle_swarm_optimisation3(
+        Ackley, -100, 100, maxiter=20, npart=40, printData=True, dim=30000)
     y = Ackley(X)
     t2 = time()
     print(X)
